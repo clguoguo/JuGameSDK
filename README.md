@@ -1,0 +1,2 @@
+# JuGameSDK
+JuGameSDK-iOS
