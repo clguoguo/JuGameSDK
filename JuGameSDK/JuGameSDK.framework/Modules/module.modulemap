@@ -1,0 +1,6 @@
+framework module JuGameSDK {
+  umbrella header "JuGameSDK.h"
+
+  export *
+  module * { export * }
+}
