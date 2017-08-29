@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JuGameSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "JuGameSDK-ShunWan.create by JuGame8868"
 
   s.homepage     = "https://github.com/clguoguo/JuGameSDK"
