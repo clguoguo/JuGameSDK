@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JuGameSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "JuGameSDK-ShunWan.create by JuGame8868"
 
   s.homepage     = "https://github.com/clguoguo/JuGameSDK"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/clguoguo/JuGameSDK.git", :tag => "#{s.version}" }
-
+  s.source_files = 'JuGameSDK/JuGameSDK.bundle'
   s.vendored_frameworks = 'JuGameSDK/JuGameSDK.framework'
 
   s.frameworks = "StoreKit"
