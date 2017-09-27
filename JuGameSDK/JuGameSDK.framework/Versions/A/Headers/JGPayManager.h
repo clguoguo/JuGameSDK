@@ -14,4 +14,7 @@
 - (void)payRequest:(JGPayRequest *)request
         completion:(void (^)(JGOrderInfo *response, NSError *error))completion;
 
+- (void)payViewController:(UIViewController *)sender
+                  request:(JGPayRequest *)request
+        completion:(void (^)(JGOrderInfo *response, NSError *error))completion;
 @end

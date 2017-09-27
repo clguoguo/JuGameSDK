@@ -11,6 +11,11 @@
 #import "JGPayManagerProtocol.h"
 #import "JuGameSDKStatusCode.h"
 
+typedef NS_ENUM(NSUInteger, JGDeviceOrientation) {
+    JGDeviceOrientationLandscape,
+    JGDeviceOrientationPorait,
+};
+
 @interface JuGameSDK : NSObject
 
 /**
@@ -42,7 +47,6 @@
  登录部分
  */
 @property (nonatomic, strong, readonly) id<JGLoginManager> loginManager;
-
 
 /**
  支付相关
