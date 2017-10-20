@@ -4,7 +4,7 @@
 //
 //  Created by Magician on 2017/8/17.
 //
-//
+//  version : V1.0.3
 
 #import <Foundation/Foundation.h>
 #import "JGLoginManagerProtocol.h"

@@ -11,7 +11,7 @@
 @interface JGPayRequest : NSObject
 
 /**
- 必需。iTunes 应用后台登记的商品ID
+ iTunes应用后台登记的商品ID（内购时必传，其他支付方式不传）
  */
 @property (nonatomic, strong) NSString *productId;
 
@@ -26,7 +26,7 @@
 @property (nonatomic, strong) NSString *payName;
 
 /**
- 支付方式(内购传0)
+ 支付方式(内购传0，其他支付方式传1)
  */
 @property (nonatomic, strong) NSNumber *payWay;
 

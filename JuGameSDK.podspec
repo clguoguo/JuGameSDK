@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JuGameSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "JuGameSDK-ShunWan.create by JuGame8868"
 
   s.homepage     = "https://github.com/clguoguo/JuGameSDK"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.resource = 'JuGameSDK/JuGameSDK.bundle'
   s.vendored_frameworks = 'JuGameSDK/JuGameSDK.framework'
 
-  s.frameworks = "StoreKit"
+  s.frameworks = "StoreKit","JavaScriptCore"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
